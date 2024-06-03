@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+
+}
+.login{
+    position: relative;
+    height: 100vh;
+    display:grid;
+    align-items: center;
+
+}
+.login_bg{
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+.login_form{
+    position: relative;
+    text-align: center;
+    padding: 5vh 0vh   ;
+    border: 2px solid white;
+    border-radius: 5vh;
+    width: 60vh;
+    height: 50vh;
+    left: 80vh;
+    backdrop-filter: blur(15px);
+}
+.login_title{
+    font-size:8vh;
+    color: azure;
+    padding-bottom: 3vh;
+}
+.login_box,.login_inputs,.password-box{
+    display: grid;
+    row-gap: 3vh;
+    color: white;
+  
+}
+.login_inputs,.login_btn{
+    width: 40vh;
+    border: none;
+    outline: none;
+    
+    margin-left: 6vh;
+    background: none;
+    
+    
+     
+}
+.login_box{
+    height: 6vh;
+    border: 2px solid white;
+    border-radius: 50vh;
+    
+    
+}
+.login_inputs::placeholder{
+color: white;
+}
+
+.password-box{
+    height: 6vh;
+    border: 2px solid white;
+    border-radius: 50vh;    
+}   
+.login_button{
+    height: 9vh;
+    border-radius: 50vh;
+
+}
+.registration a{
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    transition: all 0.4s;
+   
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: #ffffff;
+    
+    height: 100vh;
+    width: 100%;
+    font-family: poppins;
+}
+#page1{
+    min-height: 10vh;
+    width: 100%;
+    background-color: #ffffff73;
+    position:relative;
+    
+    
+}
+#navbar{
+    /* padding: 5vh 5vh; */
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+   /* padding-left: 48%; */
+   
+    background-image: linear-gradient(to right, #200537, #161a48, #062a54, #00395e, #034864);
+    
+}
+
+#navbar img{
+    position: absolute;
+    height: 7vh;
+    width: 11vh;
+    left: 48%;
+    right: 50%;
+    top: 0;
+    
+}
+.pimg1{
+    background-image: url(./green/parallax/datejut36\ 2\ full\ screen.jpg);
+    height: 700px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.pimg2{
+    background-image: url(./green/parallax/datejust36\ bottom.jpg);
+   min-height: 400px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.pimg3{
+    background-image: url(./green/parallax/datejust36.jpg);
+   min-height: 600px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+section{
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    padding: 100px 0;
+    color: #ffffff;
+    background-image: linear-gradient(to left, #002c11, #043519, #0a3f21, #11482a, #175233);
+}
+section p{
+    font-size: 17px;
+}
+section h2{
+    font-size: 30px;
+}
+
+/*                        purchase details              */
+
+#purchase{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-image: linear-gradient(to right, #b7cccc, #a5bdbd, #94afaf, #83a0a0, #729292);
+}
+#img{
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 130px; 
+}
+#purchase #text-left{
+    padding: 200px 180px;
+   
+    color: rgba(68, 68, 68, 0.937);
+}
+#purchase #text-left h5{
+    font-size: 30px;
+    color: #717171;
+}
+#variation{
+    padding: 200px 120px;
+    display:flex;
+}
+#variation img{
+    height: 20vh;
+    width: 100%;
+    
+    
+}
+#variation h6{
+    font-size: 18px;
+    right: 1;
+    color: rgb(101, 101, 101);
+
+}
+
+button{
+    align-items: center;
+    height: 5vh;
+    width: 20vh;
+    margin: 2vh 100vh ;
+    background-image: linear-gradient(to left, #002c11, #043519, #0a3f21, #11482a, #175233);
+    border-radius: 50px;
+    padding: 12px;
+    color: #ffffff;
+    position: relative;
+    font-family:poppins;
+    font-weight: 500;
+    text-align: center;
+    padding: 0px 2px;
+  cursor: pointer;
+    
+    
+}
+
+
+button:hover{
+    background-image: linear-gradient(to right, #01272f, #0a3e46, #19575c, #2a7171, #3e8c86);
+    box-shadow: 7px 3px 20px rgba(74, 74, 74, 0.756);
+    transition: all 0.1s;
+}
+#bpimg{
+    background-image: url(./green/parallax/datejust36\ 2.jpg);
+    min-height: 600px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+
+
+
